@@ -4,7 +4,7 @@ Created on Tue Aug 30 10:46:55 2022
 
 @author: Rafał
 """
-
+import math
 
 #--------Variables----------#
 
@@ -85,4 +85,60 @@ print(int(z))
 
 #allows user to input data into console
 
-input("Hello my man, please enter your name: ")
+#name = input("Hello my man, please enter your name: ")
+#age = int(input("How old are you?: "))
+
+#age = age + 1
+#print("hello " + name + " you are " + str(age) + " years old")
+
+#--------MATH FUNCTION---------#  
+
+pi = 3.14
+
+#round -->round the number to the nearsest whole integer
+print(round(pi))
+
+#ceil --> math function that round number to up, whole integer
+print(math.ceil(pi))
+
+#abs --> absolute value, show how far the number is from zero
+print(abs(pi))
+
+#pow --> power the number to the power we declared
+print(pow(pi, 2))
+
+#sqrt --> in math module you can find it, count square root of a number
+print(math.sqrt(pi))
+
+#max --> will find the highest value from all the variables we put
+x =12
+y=17
+z= 14
+
+print(max(x, y, z))
+
+#min --> will find the smallest number from variable we given
+print(min(x, y, z))
+
+#--------STRING SLICING--------#
+
+#slicing create a substring by extracting elements from another string
+# indexing[] or slice()--> slice is a method
+#slicing usage [start:stop:step]
+
+#first index is inclusive, the stop index is exclusive, so we always have to give one more, to include element we want to
+name = 'Edgar Huffelpuff'
+first_name = name[0:5]
+last_name = name[6:16]
+funky_name = name[0:16:2] #we count all second letter from the string and crate a new substring
+
+reversed_name = name[::-1] #minus allows us to go backward, from the last letter of the string to the frist one
+
+print(first_name)
+print(last_name)
+print(funky_name)
+print(reversed_name)
+
+
+
+
