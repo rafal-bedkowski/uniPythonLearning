@@ -139,6 +139,57 @@ print(last_name)
 print(funky_name)
 print(reversed_name)
 
+#slice() function created slice object that is reusable
+
+website = "http://google.com"
+
+# slice = slice(7,-4)
+
+# website[slice]
+# print(website[slice])
+  
+#---------IF STATEMENTS---------#
+
+#age = int(input('How old are you? '))
+
+#if age >= 19:
+ #  print('you ale allow to drink')
+#elif age <= 0:
+ #   print('Error data')
+#else:
+ #   print('you cannot')
+
+#--------LOGICALL OPERATORS------#
+#logical operators --> and or not
+
+# temp = int(input('What is temperature outside?: '))
+
+# if temp > 0 and temp < 30:
+#     print('All is allright')
+# elif temp < 0 or temp >30:
+#     print('Dear god! Ruuuun forest ruuuun')
 
 
+#-----------WHILE LOOPS----------#
 
+#while loop --> a statement that will execute it's block of code, as long as it's condition remain true
+
+# name = ''
+
+# while len(name) == 0:
+#     name = input('Enter your name: ')
+# print('Hello ' + name)
+
+
+#-------------FOR LOOPS-----------#
+
+#for loops a statement that will execute it's block of code a limited amount of time
+#for loops limited
+#while loops unlimited
+
+# for i in range(10):
+#     print(i+1)
+
+for i in range(50, 100+1):
+    print(i)
+#here the starting point is 50 inclusive, and end is 100 exclusive      
